@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styles */
+.container{
+    width: 1280px;
+    margin: 200px auto; 
+    height: 1500px; 
+}
+html, body{
+    background-color:hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+}
+a {
+    color: hsl(236, 100%, 87%);
+    text-decoration: none;
+}
+h1 {
+    color: white; 
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+p{
+    margin: 10px 0; 
+    color: hsl(236, 100%, 87%); 
+}
+.card-content{
+    padding-left: 20px; 
+    padding-bottom: 20px;
+}
+
+.card-header ul li{
+    display: inline;
+    padding-left: 20px; 
+    font-size: 18px;
+    font-weight: 500;
+    /* padding: 10px;  */
+}
+
+/* First Column */
+.card-report img{
+    width: 60px; 
+    padding-bottom: 40px;
+    border: white;
+
+}
+
+.card-report p{
+    margin-bottom: 0;
+}
+.card-report{
+    background-color: hsl(246, 80%, 60%); 
+    padding-top: 20px; 
+    padding-left: 20px; 
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.card{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+}
+
+.card-body{
+    padding-bottom: 30px; 
+}
+
+.weekly a{
+    color: white; 
+}
+
+/* Second Column */
+.card-work{
+    background-color: hsl(15, 100%, 70%); 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -10px;
+    height: 50px;
+}
+.card-exercise{
+    background-color: hsl(145, 58%, 55%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -10px;
+    height: 50px;
+    margin-top: 35px; 
+}
+
+/* Third column */
+.card-play{
+    background-color: hsl(195, 74%, 62%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -10px;
+    height: 50px;
+}
+.card-social{
+    background-color: hsl(264, 64%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -10px;
+    height: 50px;
+    margin-top: 35px; 
+}
+
+/* Fourth Column */
+.card-study{
+    background-color: hsl(348, 100%, 68%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -10px;
+    height: 50px;
+}
+.card-self-care{
+    background-color: hsl(43, 84%, 65%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -10px;
+    height: 50px;
+    margin-top: 35px; 
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: white; 
+}
