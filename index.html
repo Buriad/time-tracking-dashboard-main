@@ -6,8 +6,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Time tracking dashboard</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 <link rel="stylesheet" href="style.css">
@@ -17,129 +17,138 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Nara</a>
   </div>
-  <div class="container">
+<div class="container">
     <div class="row">
-      <div class="col-3">
-        <div class="section-report">
+      <div class="col-sm-12 col-md-3"> 
+        <div class=" card-body1">
+        <div class="section-report d-relative">
           <div class="card-report">
             <img src="/images/image-jeremy.png" class="card-img-top" alt="image-jeremy">
             <p>Report for</p>
-            <h1>Jeremy</h1>
-            <h1>Robson</h1>
+            <h1>Jeremy Robson</h1>
           </div>
-          <div class="card">
             <div class="card-body">
               <p><a href="#">Daily</a></p>
-              <p class="weekly"><a href="#">Weekly</a></p>
+              <p><a href="#" class="weekly">Weekly</a></p>
               <p><a href="#">Monthly</a></p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-3">
-        <div class="section-work">
-          <div class="card-work">
-            <img src="logo" class="card-img-top" alt="">
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <ul>
-                <li><a href="work">Work</a></li>
-                <li><a href="...">...</a></li>
-              </ul>
-            </div>
-            <div class="card-content">
-              <h1>32hrs</h1>
-              <p>Last Week - 36hrs</p>
-            </div>
-          </div>
-          <div class="card-exercise">
-            <img src="logo" class="card-img-top" alt="">
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <ul>
-                <li><a href="exercise">Exercise</a></li>
-                <li><a href="...">...</a></li>
-              </ul>
-            <div class="card-content">
-              <h1>4hrs</h1>
-              <p>Last Week - 5hrs</p>
+    
+        <div class="col-sm-12 col-md-9">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-xl-4"> 
+              <div class="section-work">
+              <div class="card-header card-work">
+                <img src="/images/icon-work.svg" class="card-img-top" alt="">
+              </div>
+              <div class="card">
+                <div class="card-header card-title">
+                  <h4>Work</h4>
+                  <img src="/images/icon-ellipsis.svg" alt="">
+                </div>
+                <div class="card-content">
+                  <h1>32hrs</h1>
+                  <p>Last Week - 36hrs</p>
+                </div>
+              </div>
             </div>
             </div>
+            <div class="col-sm-12 col-md-4 col-xl-4">
+              <div class="section-play">
+                <div class="card-header card-play">
+                  <img src="/images/icon-play.svg" class="card-img-top" alt="">
+                </div>
+                <div class="card">
+                  <div class="card-header card-title">
+                    <h4>Play</h4>
+                    <img src="/images/icon-ellipsis.svg" alt="">
+                  </div>
+                  <div class="card-content">
+                    <h1>10hrs</h1>
+                    <p>Last Week - 8hrs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4">
+              <div class="section-study">
+                <div class="card-header card-study">
+                  <img src="/images/icon-study.svg" class="card-img-top" alt="">
+                </div>
+                <div class="card">
+                  <div class="card-header card-title">
+                    <h4>Study</h4>
+                    <img src="/images/icon-ellipsis.svg" alt="">
+                  </div>
+                  <div class="card-content">
+                    <h1>4hrs</h1>
+                    <p>Last Week - 7hrs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+
+           <div class="row">
+             <div class="col-sm-12 col-md-4 col-xl-4">
+              <div class="section-exercise">
+                <div class="card-header card-exercise">
+                  <img src="/images/icon-exercise.svg" class="card-img-top" alt="">
+                </div>
+                <div class="card">
+                  <div class="card-header card-title">
+                    <h4>Exercise</h4>
+                    <img src="/images/icon-ellipsis.svg" alt="">
+                  </div>
+                  <div class="card-content">
+                    <h1>4hrs</h1>
+                    <p>Last Week - 5hrs</p>
+                  </div>
+                </div>
+              </div>
+             </div>
+             <div class="col-sm-12 col-md-4 col-xl-4">
+              <div class="section-social">
+                <div class="card-header card-social">
+                  <img src="/images/icon-social.svg" class="card-img-top" alt="">
+                </div>
+                <div class="card">
+                  <div class="card-header card-title">
+                    <h4>Social</h4>
+                    <img src="/images/icon-ellipsis.svg" alt="">
+                 
+                  </div>
+                  <div class="card-content">
+                    <h1>5hrs</h1>
+                    <p>Last Week - 10hrs</p>
+                  </div>
+                </div>
+              </div>
+             </div>
+             <div class="col-sm-12 col-md-4 col-xl-4">
+              <div class="section-selfcare">
+                <div class="card-header card-self-care">
+                  <img src="/images/icon-self-care.svg" class="card-img-top" alt="">
+                </div>
+                <div class="card">
+                  <div class="card-header card-title">
+                    <h4>Self-Care</h4>
+                    <img src="/images/icon-ellipsis.svg" alt="">
+                  </div>
+                  <div class="card-content">
+                    <h1>2hrs</h1>
+                    <p>Last Week - 2hrs</p>
+                  </div>
+                </div>
+              </div>
+             </div>
+           </div>
       </div>
-      <div class="col-3">
-        <div class="section-play">
-          <div class="card-play">
-            <img src="logo" class="card-img-top" alt="">
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <ul>
-                <li><a href="play">Play</a></li>
-                <li><a href="...">...</a></li>
-              </ul>
-            </div>
-            <div class="card-content">
-              <h1>10hrs</h1>
-              <p>Last Week - 8hrs</p>
-            </div>
-          </div>
-          <div class="card-social">
-            <img src="logo" class="card-img-top" alt="">
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <ul>
-                <li><a href="Social">Social</a></li>
-                <li><a href="...">...</a></li>
-              </ul>
-            <div class="card-content">
-              <h1>5hrs</h1>
-              <p>Last Week - 10hrs</p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="section-study">
-          <div class="card-study">
-            <img src="logo" class="card-img-top" alt="">
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <ul>
-                <li><a href="Study">Study</a></li>
-                <li><a href="...">...</a></li>
-              </ul>
-            </div>
-            <div class="card-content">
-              <h1>4hrs</h1>
-              <p>Last Week - 7hrs</p>
-            </div>
-          </div>
-          <div class="card-self-care">
-            <img src="logo" class="card-img-top" alt="">
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <ul>
-                <li><a href="Self-Care">Self-Care</a></li>
-                <li><a href="...">...</a></li>
-              </ul>
-            <div class="card-content">
-              <h1>2hrs</h1>
-              <p>Last Week - 2hrs</p>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
+</div>
+
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
